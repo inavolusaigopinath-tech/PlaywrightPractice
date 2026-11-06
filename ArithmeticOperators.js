@@ -46,7 +46,7 @@ let balance = 1000;
 let deposit = 500;
 console.log(-balance+deposit) // - 500
 console.log(Number.parseInt(balance)+deposit) //1500
-
+sai gopi
 
 
 
