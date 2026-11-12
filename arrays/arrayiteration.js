@@ -22,11 +22,21 @@ for(let i=num.length-1;i>=0;i--){
 for(let e of num){
     console.log(e)
 }
+// travese in forward always
 //disadvantage: always forword direction, no backward
 
 //4. for in loop
+// in means keword which reprsents index
 
-// for(let )
+let num1 = [10,20,30,40]
+for(let k in num1){
+    console.log(typeof k)
+    console.log(k)
+    console.log(num1[k])
+
+}
+// to work on indexes
+//can you find the index non repeating char
 
 
 
