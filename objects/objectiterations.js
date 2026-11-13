@@ -23,6 +23,8 @@ for(key in emp){
 
 //we can also use for of loop , but need to do small convertion
 
+console.log(Object.values(emp))
+
 for(e of Object.keys(emp)){
     console.log(e,':',emp[e])
 }

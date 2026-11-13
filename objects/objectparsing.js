@@ -13,7 +13,6 @@ let emp = {
     exp: 10,
     selenium: 'beginnar'
     }
-
 }
 console.log(typeof emp)
 let empjson = JSON.stringify(emp) // serialization
@@ -25,3 +24,4 @@ console.log(empjson)
 let empobj = JSON.parse(empjson)
 console.log(typeof empobj)
 console.log(empobj)
+console.log(empobj['age'])
